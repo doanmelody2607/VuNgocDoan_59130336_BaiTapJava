@@ -17,11 +17,13 @@ public class BaiTap1Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("----Nhân viên 1----");
         NhanVien nv1 = new NhanVien("Vu Ngoc Doan", 20, "Nha Trang", 500, 200);
         System.out.println(nv1.getThongTin());
 
         System.out.println("----------------------------");
         
+        System.out.println("----Nhân viên 2----");
         NhanVien nv2 = new NhanVien("Nguyen Hoang Minh", 21, "Phu Yen", 300, 150);
         System.out.println(nv2.getThongTin());
         
